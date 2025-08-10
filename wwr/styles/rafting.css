@@ -162,3 +162,84 @@ footer p {
 .socialmedia img {
     width: 30px;
 }
+
+/* Contact Page Styles */
+.contact-team {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.team-members figure {
+    text-align: center;
+}
+
+.team-members img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+}
+
+.contact-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.contact-form button {
+    background-color: var(--accent1-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info {
+    margin-left: 50px;
+}
+
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-info img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-info .map {
+    width: 100%;
+    margin-top: 1rem;
+}
